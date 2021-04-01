@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import Posts from '../posts/Posts';
+import Services from '../services/Services';
 class Blog extends Component {
   render() {
     const { id, title, cat } = this.props.location.state
